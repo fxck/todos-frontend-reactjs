@@ -37,7 +37,7 @@ const services = [
 
 const App: React.FC = () => (
   <>
-    <z-project-diagram services={services}></z-project-diagram>
+    <z-project-diagram services={JSON.stringify(services)}></z-project-diagram>
 
     <Header />
     <QueryClientProvider client={queryClient}>
