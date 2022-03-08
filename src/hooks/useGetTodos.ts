@@ -3,7 +3,7 @@ import { useQuery } from 'react-query';
 
 const useGetTodos = () => {
   return useQuery('todos', () => axios.get(
-    `${process.env.REACT_APP_BACKEND_URL}/todos`,
+    `${process.env.REACT_APP_API_ENDPOINT}/todos`,
   ).then(({ data }) => data));
 }
 

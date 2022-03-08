@@ -4,7 +4,7 @@ import { ITodo } from '../components/TodoLayout/types';
 
 const useAddTodo = () => {
   return useMutation(({ text, index, completed }: ITodo) => axios.post(
-    `${process.env.REACT_APP_BACKEND_URL}/todos`,
+    `${process.env.REACT_APP_API_ENDPOINT}/todos`,
     { text, index, completed },
   ).then(({ data }) => data));
 }

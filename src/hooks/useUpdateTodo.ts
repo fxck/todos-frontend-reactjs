@@ -4,7 +4,7 @@ import { ITodo } from '../components/TodoLayout/types';
 
 const useUpdateTodo = () => {
   return useMutation(({ _id, completed }: ITodo) => axios.patch(
-    `${process.env.REACT_APP_BACKEND_URL}/todos/${_id}`,
+    `${process.env.REACT_APP_API_ENDPOINT}/todos/${_id}`,
     { completed },
   ).then(({ data }) => data));
 }
