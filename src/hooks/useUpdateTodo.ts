@@ -1,11 +1,11 @@
+import { Todo } from '@zerops/zestrat-models';
 import axios from 'axios';
 import { useMutation } from 'react-query';
-import { ITodo } from '../components/TodoLayout/types';
 
 const useUpdateTodo = () => {
-  return useMutation(({ _id, completed }: ITodo) => axios.patch(
-    `${process.env.REACT_APP_API_ENDPOINT}/todos/${_id}`,
-    { completed },
+  return useMutation(({ id, completed, text }: Partial<Todo>) => axios.patch(
+    `${process.env.REACT_APP_API_ENDPOINT}/todos/${id}`,
+    { completed, text },
   ).then(({ data }) => data));
 }
 

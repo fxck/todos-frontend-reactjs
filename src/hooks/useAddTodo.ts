@@ -1,12 +1,12 @@
+import { Todo } from '@zerops/zestrat-models';
 import axios from 'axios';
 import { useMutation } from 'react-query';
-import { ITodo } from '../components/TodoLayout/types';
 
 const useAddTodo = () => {
-  return useMutation(({ text, index, completed }: ITodo) => axios.post(
+  return useMutation(({ text, completed }: Partial<Todo>) => axios.post(
     `${process.env.REACT_APP_API_ENDPOINT}/todos`,
-    { text, index, completed },
+    { text, completed },
   ).then(({ data }) => data));
-}
+};
 
 export default useAddTodo;

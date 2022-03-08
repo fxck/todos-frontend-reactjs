@@ -3,9 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.36",
-    "@fortawesome/free-solid-svg-icons": "^5.15.4",
-    "@fortawesome/react-fontawesome": "^0.1.16",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
@@ -23,8 +20,8 @@
     "web-vitals": "^1.0.1",
     "@zerops/zestratcss": "0.0.10",
     "@zerops/project-diagram": "0.0.4",
-    "@zerops/zestrat-models": "0.0.12",
-    "@zerops/zestrat-react": "0.0.12"
+    "@zerops/zestrat-models": "0.0.15",
+    "@zerops/zestrat-react": "0.0.15"
   },
   "scripts": {
     "start": "react-scripts start",

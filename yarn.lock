@@ -1296,32 +1296,6 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@fortawesome/fontawesome-common-types@^0.2.36":
-  version "0.2.36"
-  resolved "https://registry.npmjs.org/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-0.2.36.tgz"
-  integrity sha512-a/7BiSgobHAgBWeN7N0w+lAhInrGxksn13uK7231n2m8EDPE3BMCl9NZLTGrj9ZXfCmC6LM0QLqXidIizVQ6yg==
-
-"@fortawesome/fontawesome-svg-core@^1.2.36":
-  version "1.2.36"
-  resolved "https://registry.npmjs.org/@fortawesome/fontawesome-svg-core/-/fontawesome-svg-core-1.2.36.tgz"
-  integrity sha512-YUcsLQKYb6DmaJjIHdDWpBIGCcyE/W+p/LMGvjQem55Mm2XWVAP5kWTMKWLv9lwpCVjpLxPyOMOyUocP1GxrtA==
-  dependencies:
-    "@fortawesome/fontawesome-common-types" "^0.2.36"
-
-"@fortawesome/free-solid-svg-icons@^5.15.4":
-  version "5.15.4"
-  resolved "https://registry.npmjs.org/@fortawesome/free-solid-svg-icons/-/free-solid-svg-icons-5.15.4.tgz"
-  integrity sha512-JLmQfz6tdtwxoihXLg6lT78BorrFyCf59SAwBM6qV/0zXyVeDygJVb3fk+j5Qat+Yvcxp1buLTY5iDh1ZSAQ8w==
-  dependencies:
-    "@fortawesome/fontawesome-common-types" "^0.2.36"
-
-"@fortawesome/react-fontawesome@^0.1.16":
-  version "0.1.16"
-  resolved "https://registry.npmjs.org/@fortawesome/react-fontawesome/-/react-fontawesome-0.1.16.tgz"
-  integrity sha512-aLmzDwC9rEOAJv2UJdMns89VZR5Ry4IHu5dQQh24Z/lWKEm44lfQr1UNalZlkUaQN8d155tNh+CS7ntntj1VMA==
-  dependencies:
-    prop-types "^15.7.2"
-
 "@hapi/address@2.x.x":
   version "2.1.4"
   resolved "https://registry.npmjs.org/@hapi/address/-/address-2.1.4.tgz"
@@ -2339,17 +2313,17 @@
     tslib "^2.3.0"
     zone.js "~0.11.4"
 
-"@zerops/zestrat-models@0.0.12":
-  version "0.0.12"
-  resolved "https://registry.yarnpkg.com/@zerops/zestrat-models/-/zestrat-models-0.0.12.tgz#7526ca29fc8d163f193aa3d4e4fec2185f63ad6e"
-  integrity sha512-chsi47t0GphfYty05v3wjVQWjCK6VMs4NHcZKGg/sswwG1TbUrE7kchzsOqZ7cYhzAVEE9Pb5tYb4akxnraQZg==
+"@zerops/zestrat-models@0.0.15":
+  version "0.0.15"
+  resolved "https://registry.yarnpkg.com/@zerops/zestrat-models/-/zestrat-models-0.0.15.tgz#45440899a621a9430ae270729afc5183e5fa4435"
+  integrity sha512-1QDdFIKMxiN/+ZyYtSyZoFHlsEl0/D+bJIDx4AzaizxL4hfP2dGAdQcdHrqlYqEbiwCm+1pZrWF5nX8JWXUCdw==
   dependencies:
     tslib "^2.3.0"
 
-"@zerops/zestrat-react@0.0.12":
-  version "0.0.12"
-  resolved "https://registry.yarnpkg.com/@zerops/zestrat-react/-/zestrat-react-0.0.12.tgz#ad00502412f3ab65f4ca23c790cc3bc996674124"
-  integrity sha512-0erZjjhb4qQkqLlLO1qdX2RGHkS/iAkN4HEmDQ6I3Xgqw3bVzUsoLcHXWZ9x4hxOWIoW5YWiXwYxeNDYYBovNQ==
+"@zerops/zestrat-react@0.0.15":
+  version "0.0.15"
+  resolved "https://registry.yarnpkg.com/@zerops/zestrat-react/-/zestrat-react-0.0.15.tgz#4acc13219b08030decda4b966c06ef94d4372652"
+  integrity sha512-Ib0SrVl3gfrhDuPtqguEXZd62BN6pMYDznxCMJTch1irMXOvuzEIfn7cDMJ6dWEohWJByqgUcY0Rfb1eAQUtNw==
 
 "@zerops/zestratcss@0.0.10":
   version "0.0.10"
